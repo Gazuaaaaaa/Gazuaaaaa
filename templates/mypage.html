@@ -114,8 +114,8 @@
         }
         .wrap{
             display: none;
-
         }
+
         .card{
             align-items: center;
             justify-content: center;
@@ -124,9 +124,6 @@
         card > button{
            float: left;
 
-        }
-        stock-list{
-            display: none;
         }
 
     </style>
@@ -168,7 +165,7 @@
 
         <button onclick="showhide()" class="my-buy"><h5 class="buy-title" >나의 매수 목록 ▽</h5></button>
         <div id="stock-list" class="wrap">
-            <div clsss="card-list">
+            <div id="card-wrap">
                 <div id="stock-detail" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">삼성 전자</h5>
@@ -191,7 +188,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
 </body>
