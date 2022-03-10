@@ -106,7 +106,7 @@ function live_btn() {
     if (count % 2 == 0) {
         $('#live_box').show();
     } else {
-        $('#live_box').hidden();
+        $('#live_box').hide();
     }
     count += 1;
 }
